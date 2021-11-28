@@ -22,7 +22,7 @@ After the submission of the first information request. I have been requested to 
 
 A complete summary of the election is produced by the outcome of the code developed audit of the election. A screen shoot of the outcome of the code developed is attached below:
 
-![outcome](Resources\Election_summary.png)
+![outcome](/Resources/Election_summary.png)
 
 ## Election Audit Summary
 
@@ -34,7 +34,6 @@ This could be achieved by replacing the lines 8 to 11 in the script by the follo
 
     8   # Ask the user to input the file name to be audited
     9   source_of_info = str(input("Please load the file that you    want to analyze in the Resources folder and then enter the name of the file here including the extension: "))
-
     10  # Ask the user to input the file name where output will be stored
     11   output_of_info = str(input("Please set the name of the file that would be stored as result of the audit on the Analysis folder: "))
     12  # Add a variable to load a file from a path.
