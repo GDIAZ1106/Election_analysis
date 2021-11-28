@@ -22,7 +22,7 @@ After the submission of the first information request. I have been requested to 
 
 A complete summary of the election is produced by the outcome of the code developed audit of the election. A screen shoot of the outcome of the code developed is attached below:
 
-![outcome](..\Resources\Election_summary.png)
+![outcome](/Resources/Election_summary.png)
 
 ## Election Audit Summary
 
