@@ -1,4 +1,4 @@
-# Election_analysis
+# Election analysis
 
 ## Project Overview
 A Colorado Board of Elections employee has given me the following tasks to complete the election audit of a recent local congressional election.
@@ -8,7 +8,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 3. Calculate the percentage of votes each candidate won
 4. Determine the winner of the election based on popular vote
 
-After the submission of the first information request. I have been requested to provide information related to the disclosure by county contiaining the following information>
+After the submission of the first information request. I have been requested to provide information related to the disclosure by county containing the following information>
 
 5. List of the counties involved in the election with their respective turnout.
 6. Percentage of turnout that each county have 
@@ -26,9 +26,9 @@ A complete summary of the election is produced by the outcome of the code develo
 
 ## Election Audit Summary
 
-Once the audit of this Election have been performed, there is an investment already done in developing a code that runs the Audit and produce a report automatically. It could be in the interest of the Election Commission oin using this script for future elections. 
+Once the audit of this Election has been performed, there is an investment already done in developing a code that runs the Audit and produce a report automatically. It could be in the interest of the Election Commission on using this script for future elections. 
 
-The most important two changes to be performed in the script are related to providing the user with the posibility of entering the name of the file to be analyzed and the name of the file were the output must be storaged. 
+The most important two changes to be performed in the script are related to providing the user with the possibility of entering the name of the file to be analyzed and the name of the file where the output must be stored. 
 
 This could be achieved by replacing the lines 8 to 11 in the script by the following:
 
@@ -44,14 +44,12 @@ This could be achieved by replacing the lines 8 to 11 in the script by the follo
 
 With the replacement the script would be ready to analyze any file with election outcome coded in the way election_results.cvs is presented.
 
-Other funcionalities that can be incorporated are related to allow the user to set up the headers of the cvs file to be used so different format of file could be anlyzed. This funcionality request more changes in the script but they start in the same way as the previous. Requires and input of the user that modifies the way the script runs.
+Other functionalities that can be incorporated are related to allow the user to set up the headers of the cvs file to be used so different format of file could be analyzed. This functionality request more changes in the script but they start in the same way as the previous. Requires and input of the user that modifies the way the script runs.
 
-It is also posible to incorporate the results per candidate on a per county. This will require a modification of the script adding a more detailed disclosure pero county. 
+It is also possible to incorporate the results per candidate on a per county. This will require a modification of the script adding a more detailed disclosure per county. 
 
-Finally this file could be used on a national level, It would need a per State analysis that would require some modifications on the script but running on the same rationale used to build up this one. 
+Finally, this file could be used on a national level, It would need a per State analysis that would require some modifications on the script but running on the same rationale used to build up this one. 
 
-The response time of the script is very fast and the results are 100% accurate so I believe that the Election Commission should think seriously about expanding this script. 
+The response time of the script is very fast, and the results are 100% accurate so I believe that the Election Commission should think seriously about expanding this script. 
 
-A version with the first change is already included on the code called PyPoll_Challenge_Recoded.py as a proff of the potential of this script.
-
-
+A version with the first change is already included on the code called PyPoll_Challenge_Recoded.py as a proof of the potential of this script.
